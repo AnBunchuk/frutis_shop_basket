@@ -85,12 +85,10 @@ class Basket {
     // калькулятор товаров в корзине
     calcBasket() {
         let arrImg = this.sectionBig.querySelectorAll('img')
-        console.log(arrImg.length)
         this.spanCalc.innerText = arrImg.length
     }
 
     init() {
-        console.dir(this)
         this.addPicture()
         this.mouseDown()
         this.mouseMove()
