@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunchuk_HW21_12.05.22</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main>
+        <header class="shop">
+            <h4>Полочка</h4>
+        </header>
+        <section id="small" class="small">
+        </section>
+        <header class="basket">
+            <h4>Корзина <span id="calc"></span></h4>
+        </header>
+        <section id="big" class="big" data-on="on">
+            <!-- <div id="big_image" class="big_image"> -->
+            <!-- <img src="img/pic06.png" alt="strawberry" > -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+    <script>
+        const myBasket = new Basket();
+        myBasket.init()
+    </script>
+</body>
+
+</html>
